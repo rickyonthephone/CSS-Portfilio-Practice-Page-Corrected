@@ -6,14 +6,14 @@ Complete a portfolio page to showcase work and capabilities as well as satisfy a
 
 The URL's to access this work can be found here:
 
-1: https://github.com/rickyonthephone/Advanced-CSS-Portfolio-Page-Practice
+Page here: https://rickyonthephone.github.io/CSS-Portfilio-Practice-Page-Corrected/
 
-2: https://rickyonthephone.github.io/Advanced-CSS-Portfolio-Page-Practice/
+Code here: https://github.com/rickyonthephone/CSS-Portfilio-Practice-Page-Corrected
 
 A snapshot of the page can be seen below:
 
 Screen Shot:
-https://github.com/rickyonthephone/Advanced-CSS-Portfolio-Page-Practice/blob/master/Assets/Images/Portfolio%20ScreenShot.png
+https://github.com/rickyonthephone/CSS-Portfilio-Practice-Page-Corrected/blob/master/assets/images/portfolio_%20screenshot.png
 
 
 ## Acceptance Criteria
