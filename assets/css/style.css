@@ -1,0 +1,120 @@
+*{
+    box-sizing:border-box;
+}
+
+.header {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    background-color:black;
+    color:white;
+    padding: 60px;
+    background-image: linear-gradient(to bottom right,black, #1631ed,black);
+}
+
+ul {
+    display: flex;
+    flex-wrap:wrap;
+    list-style-type: none;
+    width: 100%;
+    padding-left:60px;
+    padding-right:60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    justify-content: space-between;
+    color:black;
+    height:100px;
+}
+
+ul li a{
+    font-size: 30px;
+    color:black;
+    text-emphasis: none;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    max-height: 400px;
+    width:100%;
+}
+
+main {
+    display:flex;
+    flex-wrap:wrap;
+    margin-top:1%;
+}
+
+figcaption {
+    padding: 10px;
+}
+
+figcaption h1{
+    justify-content: space-around;
+    text-align: center;
+}
+
+.PersonalInfo {
+    flex-wrap: wrap;
+    flex: 1, 0, 0;
+    border-style:solid;
+    width:100%;
+    justify-content: space-evenly;
+    padding: 5px;
+    min-width:375px;
+    max-height:1000px;
+    min-height: 375px;
+    text-align: center;
+}
+
+#About-Me.PersonalInfo {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top:0;
+    padding-bottom: 40px;
+    text-align: left;
+}
+
+.PersonalInfo img{
+    width: 100%;
+    Height:48%;
+    min-width:350px;
+    object-fit: scale-down;
+    margin-top: 40px;
+}
+
+.PersonalInfo ul{
+    display:inline;
+    flex-wrap:wrap;
+    list-style-type: none;
+    height:100%;
+    width: 100%;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.PersonalInfo a{
+    text-emphasis: none;
+    text-decoration: none;
+    color:black;
+}
+
+.PersonalInfo p{
+    font-size: 24px;
+}
+
+@media screen and (max-width: 1125px) {
+    .PersonalInfo, p{
+      width: 100%;
+      flex-direction: column;
+}
+@media screen and (max-width: 750px) {
+    .PersonalInfo, p{
+        width: 100%;
+        flex-direction: column;
+}
